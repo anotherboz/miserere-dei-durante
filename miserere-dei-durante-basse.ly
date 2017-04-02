@@ -17,15 +17,15 @@
       \set Staff.shortVocalName = \markup \smallCaps B
       \tempo "Lento"
       % page 1:
-      do2 fa, sib mib sib si sol sol4 r r1 r r r
-      r r2 sol do, fa sib, mib mib? re do4 r r2 r1 r r r r r2 r8 sol' sol fa
+      do2 fa, sib mib, sib' sib sol sol4 r r1 r r r
+      r r2 sol do, fa sib, mib mib? re re4 r r2 r1 r r r r r2 r8 sol sol fa
       mib4 mib r8 do' do sib la4 sib8 sib fa2 sib,4 r4 r2 r8 lab' lab sol fa4 mi! fa sol lab sol fa fad8 fad sol2 do,8 do' do sib lab4  mi! fa sol lab sol fa fad8 fad sol2 do,4 r r2
       r1 r r2 sol' do,8 do do do fa2 sib,8 sib sib sib mib4 mib re re r2 r1 r2 la'2 re,4 r sol2
       % page 5 :
       do,4 r fa2 sib,8 sib sib sib mib4 mib re fad sol do, re2 sol4 r r1 r r2 sol8 sol dod, dod re4 re mib2 re4 r r2 r8 re' re re re4 do
       do4 sib la2 sol r4 re mib fad sol2 re4. re8 sol sol sol sol do4 si! do sol r sol lab si! do2 sol4. sol8 do,4 r r2 si'!4 do sol4. sol8
-      do,4 r r2 si!4 do sol'4. sol8 do,1 r r r r4 mi8 fad sold4 la mi mi r mi8 fad sol4 la mi8 re do re mi2 la,4 r
-      r1 r r r2 r4 la'8 si dod4 re la la r la8 si dod4 re8 re la4 la r la8^"[Solo]" sol fa4 mi8 re dod4 la8 la re [mi fa sol] la4 sol fa re la' la r^"[Tutti]" la8 si dod4 re r8 la la si dod4 re
+      do,4 r r2 si!4 do sol'4. sol8 do,1 r r r r4 mi8^"[Tutti]" fad sold4 la mi mi r mi8 fad sold4 la mi8 re do re mi2 la,4 r
+      r1 r r r2 r4 la'8^"[Tutti]" si dod4 re la la r la8 si dod4 re8 re la4 la r la8^"[Solo]" sol fa4 mi8 re dod4 la8 la re [mi fa sol] la4 sol fa re la' la r^"[Tutti]" la8 si dod4 re r8 la la si dod4 re
       la8 [sol fa sol] la4 la, re r r2 r1 fa do2 r r4 sol'8 la si!4 do r2 r4 sol8 fa mib4 re do8. do16 do4 r2 r4 do'8 sib lab4 sol fa8. fa16 fa4 r1 r4 do reb mi!
       % page 10 :
       fa4. fa8 do4 r r1 r r2 r8 do reb mi! fa4 sib,8 sib do2 fa4 r r fa8 mib reb4 sib r fa'8 mib reb4 sib r fa'8 mib reb4 sib r sib'8 sib la!2 sib4 r

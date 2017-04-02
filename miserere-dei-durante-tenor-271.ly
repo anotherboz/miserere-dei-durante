@@ -20,7 +20,7 @@
  
       \tempo "Andante"
       % page 26:
-      r1 r r mi2 (mi8) [red16 mi] fad8 [si,]
+      r1^"[Solo]" r r mi2 (mi8) [red16 mi] fad8 [si,]
       sol'2 (sol8) [fad16 mi] fad!8 [mi] red4 mi8 [do] la2 si do si4 mi4. red16 [dod?] red8. red16 \break
       
       mi4 mi8 mi16 mi red8. red16 red4 mi mi8 mi red8. red16 red4 r2 r4 mi8 re | 

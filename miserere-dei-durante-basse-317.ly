@@ -21,7 +21,7 @@
  
       \tempo "Lento"
       % page 30:
-      re4. re8 re2 r4 re8 do si!4 si si si do4. do8 si4 si sol mi |
+      re4.^"[Tutti]" re8 re2 r4 re8 do si!4 si si si do4. do8 si4 si sol mi |
       si'8. si16 si4 r2 r4 si8 la sol4 mi8 re do4 do si2
       
       si1 (si4.) si8 mi2  la4. la8 la2 r4 la8 sol fad4 fad |
@@ -29,9 +29,9 @@
       sol4 sol fad2 (fad?1)(fad?4.)  fad8 si2 \bar "||"
       
       \tempo "Largo"
-      r1 r r r4 si8 si lad2 |
+      r1 r r r4^"[Solo]" si8 si lad2 |
       si4 r si,8 si si si lad2 si4 r r1 r |
-      r r2 r4 do'8 do sol8. sol16 sol4 r sold8 sold la8. la16 la4 r8 la8 la la
+      r r2 r4 do'8^"[Tutti]" do sol8. sol16 sol4 r sold8 sold la8. la16 la4 r8 la8 la la
      
       mi4 mi r2 r1 mi8^"[Solo]" mi mi mi red2 mi4 r r2 |
       r1 r r r4 fa8^"[Tutti]" fa do8. do16 do4 |

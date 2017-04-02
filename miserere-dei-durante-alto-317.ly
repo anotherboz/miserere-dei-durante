@@ -21,7 +21,7 @@
  
       \tempo "Lento"
       % page 30:
-      r2 fad4. fad8 fad?2 r4 fad!8 fad fad? fad fad si si4 la8. la16 si4 r r sol |
+      r2^"[Tutti]" fad4. fad8 fad?2 r4 fad!8 fad fad? fad fad si si4 la8. la16 si4 r r sol |
       fad fad mi4. mi8 fad4 r r sol8 sol sol4 sol8 la fad4 sol
       
       la4 sol fad sol fad?4. fad8 mi2 r la4. la8 la2 r4 lad8 lad |

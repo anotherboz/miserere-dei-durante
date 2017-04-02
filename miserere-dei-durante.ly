@@ -2,29 +2,33 @@
 \include "italiano.ly"
 
 #(set-default-paper-size "a4")
-\paper {
-  top-margin = 15
-  bottom-margin = 20
-}
 
 \header {
   title = "Miserere mei, Deus"
   composer = "Francesco Durante"
   tagline = \markup {
-    Engraved at
-    \simple #(strftime "%Y-%m-%d" (localtime (current-time)))
-    with \with-url #"http://lilypond.org/"
-    \line { LilyPond \simple #(lilypond-version) (http://lilypond.org/) } 
+    https://github.com/anotherboz/miserere-dei-durante.git with
+    \line { LilyPond \simple #(lilypond-version) } 
     for International Music Score Library Project
   }
 }
 
 
-#(set-global-staff-size 17)
+% Change this parameter and magins to modify global size
+#(set-global-staff-size 16)
+
+\paper {
+  top-margin = 14
+  bottom-margin = 16
+}
+       
 
 \book {
   \score {
     \new ChoirStaff <<
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
       
       \new Staff {
         \include "./miserere-dei-durante-soprane1.ly"
@@ -50,6 +54,9 @@
      indent = 0
     }
     \new ChoirStaff <<
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
       \new Staff {
         \include "./miserere-dei-durante-alto-153.ly"
       }
@@ -65,6 +72,9 @@
      indent = 0
     }
     \new ChoirStaff <<
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
       \new Staff {
         \include "./miserere-dei-durante-soprane1-187.ly"
       }
@@ -80,6 +90,9 @@
      indent = 0
     }
     \new ChoirStaff <<
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
       \new Staff {
         \include "./miserere-dei-durante-soprane1-205.ly"
       }
@@ -104,6 +117,9 @@
      indent = 0
     }
     \new ChoirStaff <<
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
       \new Staff {
         \include "./miserere-dei-durante-alto-271.ly"
       }
@@ -122,7 +138,10 @@
      indent = 0     
     }
     \new ChoirStaff <<
-    \new Staff {
+      \override Score.BarNumber.break-visibility = #end-of-line-invisible
+      \override Score.SpacingSpanner.strict-note-spacing = ##t
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
+      \new Staff {
         \include "./miserere-dei-durante-soprane1-317.ly"
       }
       \new Staff {
@@ -141,10 +160,6 @@
   }
 }
 
-\paper {
-  min-systems-per-page = 3
-}
- 
   
   %{
     \layout {

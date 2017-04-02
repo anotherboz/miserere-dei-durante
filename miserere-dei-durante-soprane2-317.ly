@@ -22,7 +22,7 @@
       \set Score.currentBarNumber = #317
       \tempo "Lento"
       % page 30:
-      r2 la4. la8  la2 r4 si8 si si si si si sol4 la fad r r si |
+      r2^"[Tutti]" la4. la8  la2 r4 si8 si si si si si sol4 la fad r r si |
       si si si la si r r si8 si mi4 mi8 la, si4 si
       
       si1 (si4.) si8 si2 r dod4. dod8 dod?2 r4 dod!8 dod |

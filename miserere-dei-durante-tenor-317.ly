@@ -20,7 +20,7 @@
  
       \tempo "Lento"
       % page 30:
-      r2 re4. re8 re2 r4 red8 red red? red red red mi4. mi8 red4 r r mi  |
+      r2^"[Tutti]" re4. re8 re2 r4 red8 red red? red red red mi4. mi8 red4 r r mi  |
       red si  do4. do8 si4 r r mi8 mi mi4 mi8 mi red4 mi
       
       fad4 mi red mi( mi8)[ red16 dod]  red8. red16 mi2 dod4. dod8 dod2  r4 dod8 si lad4 lad |
@@ -36,7 +36,7 @@
       r1 r2  sib4-- sib-- la-- la-- sol-- sol-- fa-- do'8^"[Tutti]" do do8. do16 do4 |
       r4 mi8 mi la,8. la16 la4 r8 re fa re la'4 la, r^"[Solo]" dod8 dod re2 dod4 r fa,8 fa fa fa
       
-      fa2 mi4 r^"[Solo]" re'-- mi-- fa-- la,-- sib-- do-- fa,-- r
+      fa2 mi4 r re'-- mi-- fa-- la,-- sib-- do-- fa,-- r
       r1 r2 r4 fa'8^"[Tutti]" fa fa4 mi fa2 (fa8) [ do re sib] do4. do8 sib1 \bar "||"
       \tempo "Andante"
       r8 mib8[ mi dod] re re[ do si!] do do[ sib la] sib[ sib] sib[ do16 re] mib4. mi8 re4 r r1
